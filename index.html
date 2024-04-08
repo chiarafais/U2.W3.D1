@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js exercises</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Il tuo Pet!</h1>
+      <div>
+        <form action="">
+          <label for="petName">Nome del Pet: </label>
+          <input type="text" id="petName" name="petName" />
+          <label for="ownerName">Nome del proprietario:</label>
+          <input type="text" id="ownerName" name="ownerName" />
+          <label for="species">Specie:</label>
+          <input type="text" id="species" name="species" />
+          <label for="breed">Razza:</label>
+          <input type="text" id="breed" name="breed" />
+          <button class="button" type="button" onclick="createPet()">
+            INVIA IL FORM
+          </button>
+        </form>
+        <div id="obbligatorio"></div>
+        <div id="animali"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
